@@ -2,9 +2,6 @@
 
 用 Rust 从零实现的 x86_64 操作系统。
 
-文件系统、设备驱动、音频与终端都运行在用户态，内核只负责地址空间、进程调度与系统调用。驱动崩溃
-不会拖垮系统。
-
 **[wiki](https://github.com/BRX-Boruix/wiki)** —— 从这里开始，含安装、使用教程与项目历史。
 
 主要仓库：
@@ -16,4 +13,4 @@
 
 其余守护进程、用户态驱动与验收程序见 [仓库列表](https://github.com/orgs/BRX-Boruix/repositories)。
 
-各仓库采用 MIT License。
+各仓库主要采用 MIT License。
